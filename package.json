@@ -1,0 +1,34 @@
+{
+  "name": "broca",
+  "version": "0.0.0",
+  "description": "frontmatter extractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/quarterto/Broca.git"
+  },
+  "keywords": [
+    "frontmatter",
+    "template",
+    "gusto",
+    "levn",
+    "yaml"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com> (http://blog.153.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/Broca/issues"
+  },
+  "homepage": "https://github.com/quarterto/Broca",
+  "dependencies": {
+    "levn": "^0.2.5"
+  },
+  "devDependencies": {
+    "LiveScript": "^1.2.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4"
+  }
+}
