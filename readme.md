@@ -1,4 +1,4 @@
-# Broca
+# Broca [![Build Status](https://travis-ci.org/quarterto/Broca.svg?branch=master)](https://travis-ci.org/quarterto/Broca)
 
 Lightweight (~450 bytes unminified) CSON frontmatter parser.
 
