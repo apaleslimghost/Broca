@@ -17,7 +17,25 @@ export 'Broca':
 		body = """
 		---
 		a: 1
-		b: hello
+		b: 'hello'
 		---
 		hello world"""
 		expect broca body .to.eql body:"hello world" a:1 b:"hello"
+	'can parse arrays': ->
+		body = """
+		---
+		a: [1, 2, 3]
+		---
+		hello world"""
+		expect broca body .to.eql body:"hello world" a:[1 2 3]
+	'can parse multiline arrays': ->
+		body = """
+		---
+		a: [
+			1
+			2
+			3
+		]
+		---
+		hello world"""
+		expect broca body .to.eql body:"hello world" a:[1 2 3]

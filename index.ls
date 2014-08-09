@@ -1,7 +1,7 @@
-require! levn
+require! \cson-safe
 
 module.exports = ->
 	if it == /^---([\s\S]*)---/ then {
 		body: it.slice that.0.length .trim!
-		...(levn.parse \Object that.1.trim!.replace '\n' ', ')
+		...cson-safe.parse (that.1.trim! or '{}')
 	} else body:it
