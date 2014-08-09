@@ -1,4 +1,7 @@
-broca = require './index.js'
+require! {
+	broca: './index.js'
+	'expect.js'
+}
 
 export 'Broca':
 	'should pass through text with no frontmatter': ->
