@@ -1,17 +1,17 @@
 # Broca
 
-Lightweight CSON frontmatter parser.
+Lightweight (~450 bytes unminified) CSON frontmatter parser.
 
 ```
 npm install broca
 ```
 
-![Broca's area](http://readingforensics.files.wordpress.com/2013/05/brocas-area-2.jpg)
+![Broca's area](http://proxy.boxresizer.com/convert?resize=300x300&source=readingforensics.files.wordpress.com/2013/05/brocas-area-2.jpg)
 
 ## Usage
 (pretending that Javascript has multiline strings)
 
-```
+```javascript
 var broca = require('broca');
 var str = `
 ---
