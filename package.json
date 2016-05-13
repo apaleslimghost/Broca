@@ -3,7 +3,7 @@
   "description": "frontmatter extractor",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r LiveScript -u exports test.ls",
+    "test": "mocha -u exports test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -27,7 +27,6 @@
     "cson-safe": "^0.1.1"
   },
   "devDependencies": {
-    "LiveScript": "1.2.0",
     "expect.js": "^0.3.1",
     "ghooks": "^1.2.1",
     "mocha": "^1.21.4",
