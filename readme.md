@@ -1,15 +1,14 @@
 # Broca [![Build Status](https://travis-ci.org/quarterto/Broca.svg?branch=master)](https://travis-ci.org/quarterto/Broca)
 
-Lightweight (~450 bytes unminified) CSON frontmatter parser.
+CSON frontmatter parser.
 
-```
+```shell
 npm install broca
 ```
 
-![Broca's area](http://proxy.boxresizer.com/convert?resize=300x300&source=readingforensics.files.wordpress.com/2013/05/brocas-area-2.jpg)
+![Broca's area](https://cloud.githubusercontent.com/assets/631757/15262544/121413ba-195b-11e6-870a-139a0ef9361d.jpg)
 
 ## Usage
-(pretending that Javascript has multiline strings)
 
 ```javascript
 var broca = require('broca');
@@ -31,4 +30,4 @@ broca(str); //⇒ {a: 1, b:'hello', c:[1,2,3], body:'hello world'}
 Takes a string, returns an object containing at least a `body`, and whatever properties it parses from the frontmatter.
 
 ## Licence
-MIT. &copy; 2014 Matt Brennan.
+MIT
